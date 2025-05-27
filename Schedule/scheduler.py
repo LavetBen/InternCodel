@@ -6,6 +6,7 @@ from .models import LessonReminder
 from datetime import timedelta
 import logging
 
+
 logger = logging.getLogger(__name__)
 scheduler = BackgroundScheduler()
 
